@@ -1,0 +1,611 @@
+{
+  "id": "b3e3446c-5270-4959-a334-24e6eb6316fe",
+  "version": "2.0",
+  "name": "test bioskop online",
+  "url": "https://bioskoponline.com/",
+  "tests": [{
+    "id": "e2c4298b-4be3-4e45-8957-7778d601845f",
+    "name": "SCN_Bioskop online_1",
+    "commands": [{
+      "id": "7b1d6345-fd27-4924-9588-2efe145ebc40",
+      "comment": "",
+      "command": "open",
+      "target": "https://bioskoponline.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "207b9637-71a6-408e-864b-1d9732fee142",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b56a6af-79f5-4e1b-a94a-2c165843f3fb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.w-36:nth-child(6) > .font-bold",
+      "targets": [
+        ["css=.w-36:nth-child(6) > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "15fb0ac6-2612-42b2-9f09-cd9382d5bb0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-36:nth-child(6) > .font-bold",
+      "targets": [
+        ["css=.w-36:nth-child(6) > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcd3c7b6-f5de-4d0c-a54c-8f080bd5ac85",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.w-36:nth-child(6) > .font-bold",
+      "targets": [
+        ["css=.w-36:nth-child(6) > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b818f060-0764-48e2-8cfd-ed54c9d35a2e",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5008aad0-75e7-4037-b1fd-23f0dbfc02b3",
+      "comment": "Memastikan field username pada pop up masuk dapat disi",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fikriirhm148@gmail.com"
+    }]
+  }, {
+    "id": "7f0ddae2-8891-4f4e-9448-224af3ac5ab9",
+    "name": "SCN_Bioskop online_2",
+    "commands": [{
+      "id": "c6fbbdf2-677d-49a3-a45e-f275b458d557",
+      "comment": "",
+      "command": "open",
+      "target": "https://bioskoponline.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c367021-718d-4206-9e05-7f8038331be1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdb85466-339d-44f8-9a19-8c6a01f84be7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-36:nth-child(6) > .font-bold",
+      "targets": [
+        ["css=.w-36:nth-child(6) > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96b82171-ac0e-4af2-b894-9dd815013f9b",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f1dd799-3abe-4e3a-9bbf-a8aecd521506",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fikriirhm148@gmail.com"
+    }, {
+      "id": "849f8776-f495-43f6-bec8-0c345cfb2c5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-transparent",
+      "targets": [
+        ["css=.bg-transparent", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div[2]/div/label/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f95f77fa-8a77-4165-9ed4-91d12221db83",
+      "comment": "Memastikan field passrowd pada pop up masuk dapat disi",
+      "command": "type",
+      "target": "css=.bg-transparent",
+      "targets": [
+        ["css=.bg-transparent", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div[2]/div/label/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Nirmana148"
+    }]
+  }, {
+    "id": "e5ddb95a-f257-486f-ac81-599eacf0a6ad",
+    "name": "SCN_Bioskop online_3",
+    "commands": [{
+      "id": "3b1d7141-2b4d-4c1d-a2e1-6e939f3e4260",
+      "comment": "",
+      "command": "open",
+      "target": "https://bioskoponline.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bb62fbf-8e38-4afb-b875-b94a4744db4a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ef07109-b105-4f7c-b527-9d85d603685a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.w-36:nth-child(6)",
+      "targets": [
+        ["css=.w-36:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "033e0202-c9ff-4fa8-8375-1e54148e3ed3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.w-36:nth-child(6)",
+      "targets": [
+        ["css=.w-36:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "803be355-f999-4041-b483-755f6b381c84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-36:nth-child(6) > .font-bold",
+      "targets": [
+        ["css=.w-36:nth-child(6) > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c49e06a4-2d08-4b11-8f31-d688fb7bf8c3",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17cd391e-3fa1-4c07-a61a-1d6053fba80c",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fikriirhm148@gmail.com"
+    }, {
+      "id": "57e03cde-77cf-4c18-abd9-9831ac90678c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-transparent",
+      "targets": [
+        ["css=.bg-transparent", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div[2]/div/label/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ac75af0-7d73-4e16-bcb9-8fb7cf94e188",
+      "comment": "",
+      "command": "type",
+      "target": "css=.bg-transparent",
+      "targets": [
+        ["css=.bg-transparent", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div[2]/div/label/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Nirmana148"
+    }, {
+      "id": "520c1af3-d0c7-4163-b3d7-3e7b1c627778",
+      "comment": "",
+      "command": "click",
+      "target": "css=.desktop\\3Atext-lg",
+      "targets": [
+        ["css=.desktop\\3Atext-lg", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "66d5e029-1eaa-491d-b288-3421cadc2bf3",
+    "name": "SCN_Bioskop online_5",
+    "commands": [{
+      "id": "d2946647-c0a1-4f54-8934-480c86397983",
+      "comment": "",
+      "command": "open",
+      "target": "https://bioskoponline.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf7a7caf-2c5a-4236-9521-cc1bbe4234e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1062edc0-4457-43a2-ad60-9c03add8b1b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-36:nth-child(6) > .font-bold",
+      "targets": [
+        ["css=.w-36:nth-child(6) > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb2dfb83-53ea-46fd-b82c-50bfbbe0d8aa",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "590883e9-b136-4f81-b041-64e69df453de",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fikriirhm148@gmail.com"
+    }, {
+      "id": "2c3bfc67-9ba3-4f05-aef8-a28d590abc59",
+      "comment": "Memastikan button masuk disable ketika hanya menginputkan username",
+      "command": "click",
+      "target": "css=.w-full > .font-bold",
+      "targets": [
+        ["css=.w-full > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a8b6a588-b43c-4418-b806-0274f45e9128",
+    "name": "SCN_Bioskop online_6",
+    "commands": [{
+      "id": "0843c04d-eaee-41be-9195-03e97c5c566b",
+      "comment": "",
+      "command": "open",
+      "target": "https://bioskoponline.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cb7fedf-edf8-4746-be07-cebb69a882ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be87cbbf-c546-45a7-83cd-c88f2a579e94",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.w-36:nth-child(6) > .font-bold",
+      "targets": [
+        ["css=.w-36:nth-child(6) > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb41cd79-fff1-45d7-9755-ad5baff1529f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-36:nth-child(6) > .font-bold",
+      "targets": [
+        ["css=.w-36:nth-child(6) > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7558c4-619d-468e-8a43-b8b9d6b8e2b7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.w-36:nth-child(6) > .font-bold",
+      "targets": [
+        ["css=.w-36:nth-child(6) > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "667defa8-3b68-412c-a278-ddeaeb37589b",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e79b59f-2f38-48e7-a8e6-e824a38bf5cd",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "7865656576576576"
+    }]
+  }, {
+    "id": "6ecd5bc2-eb94-4b2c-a902-1cd7a73f1edb",
+    "name": "SCN_Bioskop online_7",
+    "commands": [{
+      "id": "3f57da2a-3ae5-4fa7-9ada-9672d1d9d366",
+      "comment": "",
+      "command": "open",
+      "target": "https://bioskoponline.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff512b1c-a5df-411d-977a-bd92b332d113",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdbcd38d-c082-4ec2-9f03-495aa778dd4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-36:nth-child(6) > .font-bold",
+      "targets": [
+        ["css=.w-36:nth-child(6) > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d38ea880-47ab-4a41-ac04-309a7dd9096f",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a67acb72-cc41-43b7-9e8a-39cabbfb0b46",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fikriirhm148@gmail.com"
+    }, {
+      "id": "682d2a27-99d2-49cf-ac22-5fc7090048ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bg-transparent",
+      "targets": [
+        ["css=.bg-transparent", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div[2]/div/label/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7412feb6-a9db-4f9b-a3cf-919bb74e9c26",
+      "comment": "",
+      "command": "type",
+      "target": "css=.bg-transparent",
+      "targets": [
+        ["css=.bg-transparent", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div[2]/div/label/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Nirmana148"
+    }, {
+      "id": "41ceb45f-9d9b-42ba-a4c5-321c13970317",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > svg",
+      "targets": [
+        ["css=.absolute > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3619574-1704-4df7-9af3-5869ff1a5747",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > svg",
+      "targets": [
+        ["css=.absolute > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6369562c-7638-41df-a4b1-8f7d8822388b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.absolute > svg",
+      "targets": [
+        ["css=.absolute > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a41cb2e-2ef2-4542-9a9c-568d38bb5931",
+      "comment": "Memastikan tombol unhide pada psasword berfungsi",
+      "command": "doubleClick",
+      "target": "css=.absolute > svg",
+      "targets": [
+        ["css=.absolute > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "477bc104-53d0-4a54-82e0-d7f6a3b75c2c",
+    "name": "SCN_Bioskop online_4",
+    "commands": [{
+      "id": "57a74c07-1b33-4de4-8a5e-67bb458c901f",
+      "comment": "",
+      "command": "open",
+      "target": "https://bioskoponline.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96b396a3-1651-4f10-8fa6-66055e24ec94",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34f34ef2-c661-4d4e-8c26-a3064ed9c011",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w-36:nth-child(6) > .font-bold",
+      "targets": [
+        ["css=.w-36:nth-child(6) > .font-bold", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[2]/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc7802c4-20b1-4af0-8f1b-5906ad4ef430",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1174f770-1b0d-4b4c-a6b1-94dc788cdd31",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.input-custom", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[5]/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fikrimail.com"
+    }]
+  }],
+  "suites": [{
+    "id": "83c674ce-6a87-459b-9f98-20ed0ed2ed43",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e2c4298b-4be3-4e45-8957-7778d601845f"]
+  }],
+  "urls": ["https://bioskoponline.com/"],
+  "plugins": []
+}
